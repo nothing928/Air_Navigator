@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black_ninef"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="@dimen/text_10"
+        android:paddingBottom="@dimen/text_10">
+        <TextView
+            android:id="@+id/hangxian_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_alignParentLeft="true"
+            android:layout_centerInParent="true"
+            android:layout_marginLeft="@dimen/text_10"
+            android:textSize="@dimen/text_20"
+            android:textStyle="bold"
+            android:textColor="@color/daohangblue"
+            android:text="XX航线"/>
+
+        <TextView
+            android:id="@+id/hanglu_jiahao"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:minWidth="60sp"
+            android:gravity="center"
+            android:layout_alignParentRight="true"
+            android:layout_centerInParent="true"
+            android:layout_marginRight="@dimen/text_10"
+            android:textSize="@dimen/text_25"
+            android:textStyle="bold"
+            android:textColor="@color/daohangqianblue"
+            android:background="@color/transgreyef"
+            android:text="＋"/>
+
+        <TextView
+            android:id="@+id/hangxian_pianzhi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:minWidth="60sp"
+            android:gravity="center"
+            android:layout_centerVertical="true"
+            android:textSize="@dimen/text_25"
+            android:textStyle="bold"
+            android:textColor="@color/daohangqianblue"
+            android:background="@color/transgreyef"
+            android:text="偏置"
+            android:layout_toLeftOf="@+id/hangxian_zhixing"
+            android:layout_toStartOf="@+id/hangxian_zhixing"
+            android:layout_marginRight="@dimen/text_10"
+            android:layout_marginEnd="@dimen/text_10"/>
+
+        <TextView
+            android:id="@+id/hangxian_zhixing"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:minWidth="60sp"
+            android:gravity="center"
+            android:layout_centerVertical="true"
+            android:textSize="@dimen/text_25"
+            android:textStyle="bold"
+            android:textColor="@color/daohangqianblue"
+            android:background="@color/transgreyef"
+            android:text="执行"
+            android:layout_toLeftOf="@+id/hanglu_jiahao"
+            android:layout_toStartOf="@+id/hanglu_jiahao"
+            android:layout_marginLeft="@dimen/text_5"
+            android:layout_marginRight="@dimen/text_10"
+            android:layout_marginEnd="@dimen/text_10"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/transgreysevenf">
+
+        <ListView
+            android:id="@+id/lv_hanglu"
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent"></ListView>
+
+    </RelativeLayout>
+
+</LinearLayout>

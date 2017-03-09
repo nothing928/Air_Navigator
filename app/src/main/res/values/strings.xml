@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Air_Navigator</string>
+    <!--底部按钮-->
+    <string name="tv_tuceng">图\t层</string>
+    <string name="tv_daohang">导\t航</string>
+    <string name="tv_msg">Ｍ\tＳ\tＧ</string>
+    <string name="tv_home">HOME</string>
+    <string name="tv_tishiquan">提\t示\t圈</string>
+    <string name="tv_dixing">地\t形</string>
+    <string name="tv_shezhi">设\t置</string>
+
+    <!--spinner相关-->
+
+    <string-array name="array_fangxiangzhuang">
+        <item>@string/caz</item>
+        <item>@string/pal</item>
+    </string-array>
+
+    <string name="caz">CAZ</string>
+    <string name="pal">PAL</string>
+
+</resources>

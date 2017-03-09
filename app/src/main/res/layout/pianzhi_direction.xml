@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:minWidth="250sp"
+    android:background="@color/qianhui"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textColor="@color/daohangblue"
+        android:textSize="15sp"
+        android:paddingLeft="5sp"
+        android:paddingRight="5sp"
+        android:paddingTop="10sp"
+        android:paddingBottom="5sp"
+        android:layout_marginLeft="15sp"
+        android:text="偏置方向"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingRight="5sp"
+            android:paddingTop="5sp"
+            android:paddingBottom="5sp"
+            android:textStyle="bold"
+            android:textColor="@color/daohangblue"
+            android:textSize="15sp"
+            android:text="左"/>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/you_shen"
+                    android:textSize="15sp"
+                    android:textColor="@color/you_shen"
+                    android:text="右右右右"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/zuo_qian"
+                    android:textSize="15sp"
+                    android:textColor="@color/zuo_hui"
+                    android:text="左左"/>
+            </LinearLayout>
+
+        </RelativeLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="5sp"
+            android:paddingRight="5sp"
+            android:paddingTop="5sp"
+            android:paddingBottom="5sp"
+            android:textStyle="bold"
+            android:textColor="@color/daohangblue"
+            android:textSize="15sp"
+            android:text="右"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textColor="@color/daohangblue"
+        android:textSize="15sp"
+        android:paddingLeft="5sp"
+        android:paddingRight="5sp"
+        android:paddingTop="10sp"
+        android:paddingBottom="5sp"
+        android:layout_marginLeft="15sp"
+        android:text="偏置距离"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:paddingLeft="35sp"
+        android:paddingRight="15sp"
+        android:layout_marginTop="5sp"
+        android:layout_marginBottom="10sp"
+        android:orientation="horizontal">
+
+        <EditText
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="7"
+            android:background="@drawable/edit_bgd"
+            android:padding="5sp"
+            android:layout_marginRight="10sp"
+            android:textColor="@color/white"
+            android:textSize="15sp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:gravity="center"
+            android:textColor="@color/daohangblue"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:paddingTop="5sp"
+            android:paddingBottom="5sp"
+            android:paddingRight="5sp"
+            android:text="海里"/>
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@color/black_trans"
+    android:orientation="vertical">
+    <TextView
+        android:id="@+id/set_gaojing"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textStyle="bold"
+        android:padding="@dimen/text_10"
+        android:text="告警设置"
+        android:clickable="true"
+        android:textColor="@color/white"
+        android:textSize="@dimen/text_20"/>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/text_1"
+        android:background="@color/dx_transqianhui" />
+    <TextView
+        android:id="@+id/set_jichang"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textStyle="bold"
+        android:padding="@dimen/text_10"
+        android:text="机场设置"
+        android:clickable="true"
+        android:textColor="@color/white"
+        android:textSize="@dimen/text_20"/>
+
+
+</LinearLayout>

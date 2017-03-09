@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black_ninef"
+    android:orientation="vertical">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="10sp"
+        android:paddingBottom="10sp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_alignParentLeft="true"
+            android:layout_centerInParent="true"
+            android:layout_marginLeft="10dp"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="@color/daohangblue"
+            android:text="导航"/>
+
+        <TextView
+            android:id="@+id/hangxian_jiahao"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:minWidth="60sp"
+            android:gravity="center"
+            android:layout_alignParentRight="true"
+            android:layout_centerInParent="true"
+            android:layout_marginRight="10dp"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:textColor="@color/daohangqianblue"
+            android:background="@color/transgreyef"
+            android:text="＋"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/transgreysevenf">
+
+        <ListView
+            android:id="@+id/lv_hangxian"
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent"></ListView>
+
+    </RelativeLayout>
+
+
+
+</LinearLayout>

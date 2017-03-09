@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:padding="5sp"
+    android:background="@drawable/infowin_bgd"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="经度："
+            android:textColor="@color/qianlan"/>
+        <TextView
+            android:id="@+id/ifw_jingdu"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="null"
+            android:textColor="@color/qianlan"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="纬度："
+            android:textColor="@color/qianlan"/>
+        <TextView
+            android:id="@+id/ifw_weidu"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="null"
+            android:textColor="@color/qianlan"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="距离："
+            android:textColor="@color/qianlan"/>
+        <TextView
+            android:id="@+id/ifw_juli"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="null"
+            android:textColor="@color/qianlan"/>
+    </LinearLayout>
+
+</LinearLayout>
