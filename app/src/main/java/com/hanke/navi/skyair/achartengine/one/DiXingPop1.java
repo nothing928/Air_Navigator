@@ -91,7 +91,6 @@ public class DiXingPop1 extends PopupWindow {
                 }else{
                     m=10;
                     chartService1.shangmianxian(m,2500);
-                    ImageView imageView = new ImageView(context);
                 }
             }
         }, 10, 1000);//延时10毫秒后周期性的执行task，其中周期是3000毫秒
